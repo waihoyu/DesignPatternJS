@@ -74,3 +74,5 @@ typings/
 # Serverless directories
 .serverless
 
+/NO_01/node_modules/
+/NO_01/package-lock.json
