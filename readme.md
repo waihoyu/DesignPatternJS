@@ -237,7 +237,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 
 - UML类图2-关系
 
-![Image](../DesignPatternJS/NO_01/assets/images/UML001.png)
+![Image](./NO_01/assets/images/UML001.png)
 
 
 // People  A  B  House
