@@ -426,22 +426,170 @@ LID体现较少，但是要了解其用意
 
 ```
 
+## 从设计到模式
+
+设计
+模式
+分开
+从设计到模式
+
+- 介绍23中设计模式
+> 创建型
+   - 工厂模式（工厂方法模式，抽象工厂模式，建造者模式）
+        ```bash
+        
+        ```
+   - 单例模式
+   
+   - 原型模式
+   
+> 组合型
+
+  - 适配器模式
+  
+  - 装饰器模式
+  
+  - 代理模式
+  
+  - 外观模式
+  
+  - 桥接模式
+  
+  - 组合模式
+  
+  - 享元模式
+
+> 行为型
+
+```bash
+
+  - 策略模式
+  
+  - 模板方法模式
+  
+  - 观察者模式
+  
+  - 迭代器模式
+  
+  - 指责连模式
+  
+  - 命令模式
 
 
+  - 备忘录模式
+  
+  - 状态模式
+  
+  - 访问者模式
+  
+  - 中介者模式
+  
+  - 解释器模式
+  
+```
+## 分优先级
+
+- 前端常用设计模式，详讲
+
+- 前端非常用设计模式，略讲
+
+- 前端少用设计模式，介绍
+
+## 如何讲解设计模式
+
+- 介绍和举例
+
+- 画UML类图写demo代码
+
+- 结合经典应用场景，讲解该设计模式如何被使用
 
 
+## 该如何学习设计模式
 
+- 明白每个设计的道理和用意
 
+- 通过经典应用体会它的真正使用场景
 
+- 自己编码时多思考，尽量多模仿
 
+## 面试题示例
 
+- 第一题
 
+  > 打车时，可以打专车或者快车。任何车都有车牌号和名称
+  不同车价格不同，快车每公里1元，专车每公里2元
+  行程开始时，显示车辆信息
+  行程结束时，显示打车金额（假定行车就5公里）
+    
+   > UML图的演示
+    ![img](./NO_01/assets/images/mianshiti001.png)
 
+   > 代码的演示
+   
+```javascript
+    //车 父类
+    class Car {
+        constructor(number, name){
+    
+            this.number = number
+    
+            this.name = name
+        }
+    }
+    
+    // 快车
+    
+    class Kuaiche extends Car{
+    
+        constructor(number, name) {
+    
+            super(number, name);
+    
+            this.price = 1
+    
+        }
+    
+    }
+    
+    //专车
+    
+    class Zhuche extends Car{
+    
+        constructor(number, name) {
+    
+            super(number, name);
+    
+            this.price = 2
+    
+        }
+    }
+    
+    //行程
+    
+    class Trip {
+    
+        constructor(car){
+            this.car = car
+        }
+    
+        start(){
+            console.log(`行程开始，名称：${this.car.name},车牌号:${this.car.number}`)
+        }
+    
+        end(){
+            console.log('行程结束，金额：' + this.car.price * 5)
+        }
+    }
+    
+    //测试
+    
+    let car = new Kuaiche(100,'桑塔纳')
+    
+    let trip = new Trip(car)
+    
+    trip.start()
+    
+    trip.end()
 
-
-
-
-
-
-
+```
 
