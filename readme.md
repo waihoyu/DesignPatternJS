@@ -1,8 +1,16 @@
 ## 设计模式
 
+## 目录
+1. [环境的初始化搭建](#jump1)
+2. [面向对象的继承](#jump2)
+3. [面向对象的封装](#jump3)
+4. [面向对象的多态](#jump4)
+5. [从设计到模式](#jump5)
+6. [设计原则](#jump6)
+
 ## NO_01  面向对象
 
-- 环境的初始化搭建
+###  环境的初始化搭建  <a name="jump1" />
 
 ```bash
 
@@ -14,7 +22,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 
 ```
 
-###  面向对象的继承
+###  面向对象的继承  <a name="jump2" />
 
 - 三要素-继承
 >People是父类，公共的，不仅仅服务于Student
@@ -82,7 +90,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 ```
 
 
-### 面向对象的封装
+### 面向对象的封装  <a name="jump3" />
 
 - 三要素-封装
 
@@ -178,7 +186,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 
 ```
 
-### 面向对象的多态
+### 面向对象的多态  <a name="jump4" />
 
 - 三要素-多态
 
@@ -233,7 +241,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 
 ```
 
-### UML类图2
+### UML类图2  <a name="jump5" />
 
 - UML类图2-关系
 
@@ -248,7 +256,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 ```
 
 
-### 设计原则
+### 设计原则  <a name="jump6" />
 
 - 何为设计？
 
@@ -426,7 +434,7 @@ LID体现较少，但是要了解其用意
 
 ```
 
-## 从设计到模式
+## 从设计到模式  <a name="jump7" />
 
 设计
 模式
@@ -487,7 +495,7 @@ LID体现较少，但是要了解其用意
   - 解释器模式
   
 ```
-## 分优先级
+### 分优先级
 
 - 前端常用设计模式，详讲
 
@@ -495,7 +503,7 @@ LID体现较少，但是要了解其用意
 
 - 前端少用设计模式，介绍
 
-## 如何讲解设计模式
+### 如何讲解设计模式
 
 - 介绍和举例
 
@@ -504,7 +512,7 @@ LID体现较少，但是要了解其用意
 - 结合经典应用场景，讲解该设计模式如何被使用
 
 
-## 该如何学习设计模式
+### 该如何学习设计模式
 
 - 明白每个设计的道理和用意
 
@@ -512,7 +520,7 @@ LID体现较少，但是要了解其用意
 
 - 自己编码时多思考，尽量多模仿
 
-## 面试题示例
+### 面试题示例
 
 - 第一题
 
