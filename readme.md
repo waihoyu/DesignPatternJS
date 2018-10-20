@@ -7,10 +7,12 @@
 4. [面向对象的多态](#jump4)
 5. [从设计到模式](#jump5)
 6. [设计原则](#jump6)
+7. [工厂模式](#jump7)
+8. [单例模式](#jump8)
 
-## NO_01  面向对象
+## 环境配置
 
-###  环境的初始化搭建  <a name="jump1" />
+###  1.环境的初始化搭建  <a name="jump1" />
 
 ```bash
 
@@ -21,8 +23,9 @@ npm install webpack-dev-server html-webpack-plugin --save-dev
 npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest --save-dev  
 
 ```
+## 面向对象
 
-###  面向对象的继承  <a name="jump2" />
+###  2.面向对象的继承  <a name="jump2" />
 
 - 三要素-继承
 >People是父类，公共的，不仅仅服务于Student
@@ -768,3 +771,4 @@ LID体现较少，但是要了解其用意
     console.log('第三辆车离开')
 
 ```
+###  7. 工厂模式  <a name="jump7" />
