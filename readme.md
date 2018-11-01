@@ -117,7 +117,7 @@ npm install babel-core babel-loader babel-polyfill babel-preset-es2015 babel-pre
 > ES6目前不支持，一般认为_开头的属性是private
   
   
-```typescript
+```bash
 
     //www.typescriptlang.org/play/
     
@@ -871,7 +871,9 @@ LID体现较少，但是要了解其用意
 
 ###  9. 适配器模式  <a name="jump9" />
 
-
+   > UML图的演示
+    ![img](./NO_01/assets/images/Adaptee.png)
+    
 ```JavaScript
 
     class Adaptee {
